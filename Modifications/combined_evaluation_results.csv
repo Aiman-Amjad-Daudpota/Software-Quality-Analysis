@@ -1,0 +1,19 @@
+Experiment,Model,Accuracy,W-Precision,W-Recall,W-F1,ROC-AUC,Def-Precision,Def-Recall
+A — Baseline,Logistic Regression,69.0%,0.7723,0.6899,0.7174,0.6959,0.3302,0.5867
+A — Baseline,Decision Tree,73.5%,0.7586,0.7354,0.7456,0.6915,0.3512,0.4347
+A — Baseline,Random Forest,77.2%,0.7727,0.7717,0.7722,0.7286,0.4108,0.4157
+A — Baseline,k-NN,65.4%,0.7719,0.6537,0.6885,0.6892,0.3084,0.6366
+A — Baseline,XGBoost,58.4%,0.7835,0.5838,0.6265,0.7109,0.2841,0.7577
+A — Baseline,Linear SVC,67.6%,0.7693,0.6762,0.7063,0.6939,0.3189,0.5938
+B — After Removal,Logistic Regression,71.5%,0.7409,0.7145,0.7254,0.6887,0.3945,0.4975
+B — After Removal,Decision Tree,71.8%,0.7180,0.7185,0.7182,0.6604,0.3750,0.3731
+B — After Removal,Random Forest,76.1%,0.7467,0.7611,0.7526,0.6977,0.4639,0.3831
+B — After Removal,k-NN,63.2%,0.7225,0.6321,0.6601,0.6471,0.3221,0.5721
+B — After Removal,XGBoost,61.6%,0.7598,0.6164,0.6478,0.7099,0.3383,0.7338
+B — After Removal,Linear SVC,70.1%,0.7363,0.7005,0.7146,0.6861,0.3778,0.5075
+C — Removal + FS,Logistic Regression,73.0%,0.7390,0.7302,0.7343,0.6912,0.4100,0.4478
+C — Removal + FS,Decision Tree,66.6%,0.7320,0.6663,0.6886,0.6656,0.3490,0.5547
+C — Removal + FS,Random Forest,73.5%,0.7278,0.7353,0.7313,0.6902,0.4054,0.3731
+C — Removal + FS,k-NN,65.3%,0.7243,0.6528,0.6769,0.6420,0.3344,0.5448
+C — Removal + FS,XGBoost,53.9%,0.7622,0.5390,0.5697,0.6939,0.3048,0.8159
+C — Removal + FS,Linear SVC,72.8%,0.7402,0.7280,0.7335,0.6899,0.4084,0.4602
